@@ -15,3 +15,4 @@ ecdsa = { version = "0.16.9", features = ["signing", "verifying",
 uint = "0.9.5"
 uuid = { version = "1.18.0", features = ["v4", "serde"] }
 rand = "0.8.5"
+thiserror = "2.0.16"

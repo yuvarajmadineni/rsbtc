@@ -1,6 +1,9 @@
+use serde::{Deserialize, Serialize};
+
 use crate::sha256::Hash;
 use crate::types::Transaction;
 
+#[derive(Clone, Debug, Deserialize, Serialize, PartialEq)]
 pub struct MerkleRoot(Hash);
 
 impl MerkleRoot {
